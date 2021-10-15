@@ -1,0 +1,129 @@
+html{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1140px;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button{
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 12px 24px;
+    background: #DE2E54;
+    border: 2px solid #DE2E54;
+    border-radius: 8px;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Header  */
+
+.site-header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.site-logo{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.site-logo img{
+    margin-right: 16px;
+}
+
+.site-logo h1{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    color: #222222;
+    margin: 0;
+}
+
+.site-nav{
+    display: flex;
+    align-items: center;
+}
+
+.site-nav-list{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    margin-left: -32px;
+    padding: 0;
+    list-style-type: none;
+}
+
+.site-nav-item{
+    margin-left: 32px;
+}
+
+.site-nav-link{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #222222;
+    text-decoration: none;
+
+}
+
+.site-main-header{
+    background: #0EB4C1;
+    padding-top: 30px;
+}
+
+.main-header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-header-info{
+    max-width: 500px;
+    color: #fff;
+}
+
+.site-title{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 120%;
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+.site-desc{
+    font-size: 18px;
+    line-height: 150%;
+    margin-top: 0;
+    margin-bottom: 36px;
+}
+
+section{
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-color: red;
+}
